@@ -16,6 +16,18 @@ import {
 export default function ProjectsListingPage() {
   const projects = [
     {
+      id: "kl-cse-capstone-management",
+      title: "KL CSE Capstone Management & Evaluation Portal",
+      subtitle: "Role-Based Capstone Project Management, Assignment, Evaluation & Academic Review Platform",
+      category: "Featured Academic ERP & Evaluation Platform",
+      description: "Designed and engineered a role-based capstone management platform that centralizes student/team assignments, evaluator workflows, rubric-driven assessments, attendance, review cycles, and administrative evaluation tracking.",
+      highlights: ["Role-Based Access (5 Roles)", "Deterministic Identity Resolution", "Rubric-Driven Assessments", "Cross-Evaluator Mark Isolation", "Bulk CSV/XLSX Sync"],
+      technologies: ["React", "Vite", "Firebase Auth", "Cloud Firestore", "Tailwind CSS", "PapaParse", "jsPDF"],
+      featured: true,
+      detailUrl: "/projects/kl-cse-capstone-management",
+      githubUrl: "https://github.com/reviewportalklu-cse2/capstone"
+    },
+    {
       id: "gr-styles",
       title: "GR STYLES",
       subtitle: "Modern Fashion E-Commerce Web Platform",
