@@ -1,16 +1,16 @@
 {
   "summary": {
-    "totalVisitors": 2,
+    "totalVisitors": 3,
     "uniqueVisitorsCount": 1,
-    "totalSessions": 2,
-    "totalPageViews": 9,
-    "avgSessionDurationSeconds": 44
+    "totalSessions": 3,
+    "totalPageViews": 11,
+    "avgSessionDurationSeconds": 32
   },
   "visitors": {
     "v_clfhtofps_mto31s29": {
       "firstSeen": "2026-09-05T07:50:08.754Z",
-      "lastSeen": "2026-09-05T08:00:09.922Z",
-      "visitCount": 13
+      "lastSeen": "2026-09-05T08:18:49.551Z",
+      "visitCount": 17
     }
   },
   "sessions": {
@@ -39,11 +39,24 @@
       "referrer": "Direct",
       "entryPage": "/",
       "exitPage": "/"
+    },
+    "s_rjn435vgl_mto42gyv": {
+      "visitorId": "v_clfhtofps_mto31s29",
+      "startTime": "2026-09-05T08:18:40.126Z",
+      "lastActivity": "2026-09-05T08:18:49.551Z",
+      "durationSeconds": 9,
+      "pagesViewed": 2,
+      "deviceType": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "referrer": "Direct",
+      "entryPage": "/",
+      "exitPage": "/"
     }
   },
   "pages": {
     "/": {
-      "views": 6,
+      "views": 8,
       "uniqueVisitors": [
         "v_clfhtofps_mto31s29"
       ]
@@ -115,29 +128,29 @@
     "instagram": 0
   },
   "exitIntent": {
-    "shown": 2,
-    "dismissed": 1,
+    "shown": 3,
+    "dismissed": 2,
     "contactClicked": 1
   },
   "timeSeries": {
     "2026-09-05": {
       "visitors": 0,
-      "pageViews": 9,
+      "pageViews": 11,
       "sessions": 0
     }
   },
   "deviceBreakdown": {
-    "desktop": 2,
+    "desktop": 3,
     "mobile": 0,
     "tablet": 0
   },
   "browserBreakdown": {
-    "Chrome": 2
+    "Chrome": 3
   },
   "osBreakdown": {
-    "Windows": 2
+    "Windows": 3
   },
   "referrerBreakdown": {
-    "Direct": 2
+    "Direct": 3
   }
 }

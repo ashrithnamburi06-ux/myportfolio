@@ -36,6 +36,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85
     },
     {
+      url: `${baseUrl}/projects/dealrix`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.85
+    },
+    {
+      url: `${baseUrl}/projects/ai-showcase`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.85
+    },
+    {
+      url: `${baseUrl}/projects/developer-portfolio`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.85
+    },
+    {
       url: `${baseUrl}/skills`,
       lastModified,
       changeFrequency: "monthly",

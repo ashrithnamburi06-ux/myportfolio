@@ -48,14 +48,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const proj = projectDataMap[slug] || projectDataMap["dealrix"];
 
+  const titleString =
+    slug === "dealrix"
+      ? "Dealrix | Full Stack E-Commerce Platform | Ashrith Namburi"
+      : `${proj.title} | Ashrith Namburi`;
+
   return {
-    title: `${proj.title} | Ashrith Namburi`,
-    description: `${proj.description} - Case study developed by Ashrith Namburi.`,
+    title: {
+      absolute: titleString
+    },
+    description: `${proj.description} - Engineering project developed by Ashrith Namburi.`,
     alternates: {
       canonical: `https://myportfolio-eight-ecru-21.vercel.app/projects/${slug}`
     },
     openGraph: {
-      title: `${proj.title} | Ashrith Namburi`,
+      title: titleString,
       description: proj.description,
       url: `https://myportfolio-eight-ecru-21.vercel.app/projects/${slug}`
     }

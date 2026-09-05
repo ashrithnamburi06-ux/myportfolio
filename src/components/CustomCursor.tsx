@@ -8,11 +8,8 @@ export const CustomCursor: React.FC = () => {
   const [clicked, setClicked] = useState(false);
   const [visible, setVisible] = useState(false);
 
-  const dotRef = useRef<HTMLDivElement>(null);
-  const ringRef = useRef<HTMLDivElement>(null);
-
+  const containerRef = useRef<HTMLDivElement>(null);
   const mousePos = useRef({ x: -100, y: -100 });
-  const ringPos = useRef({ x: -100, y: -100 });
   const animFrameId = useRef<number | null>(null);
 
   useEffect(() => {
@@ -62,18 +59,10 @@ export const CustomCursor: React.FC = () => {
     document.body.addEventListener("mouseleave", onMouseLeave);
     document.body.addEventListener("mouseenter", onMouseEnter);
 
-    // Animation Loop for Smooth Trailing Ring
+    // Animation Loop: Unified positioning for Dot and Ring
     const render = () => {
-      // Lerp ring position
-      const lerp = 0.22;
-      ringPos.current.x += (mousePos.current.x - ringPos.current.x) * lerp;
-      ringPos.current.y += (mousePos.current.y - ringPos.current.y) * lerp;
-
-      if (dotRef.current) {
-        dotRef.current.style.transform = `translate3d(${mousePos.current.x}px, ${mousePos.current.y}px, 0) translate(-50%, -50%)`;
-      }
-      if (ringRef.current) {
-        ringRef.current.style.transform = `translate3d(${ringPos.current.x}px, ${ringPos.current.y}px, 0) translate(-50%, -50%)`;
+      if (containerRef.current) {
+        containerRef.current.style.transform = `translate3d(${mousePos.current.x}px, ${mousePos.current.y}px, 0) translate(-50%, -50%)`;
       }
 
       animFrameId.current = requestAnimationFrame(render);
@@ -97,23 +86,17 @@ export const CustomCursor: React.FC = () => {
 
   return (
     <div
-      className={`pointer-events-none fixed inset-0 z-[9999] transition-opacity duration-300 ${
+      ref={containerRef}
+      className={`fixed top-0 left-0 pointer-events-none z-[9999] flex items-center justify-center transition-opacity duration-300 ${
         visible ? "opacity-100" : "opacity-0"
       }`}
+      style={{
+        transform: "translate3d(-100px, -100px, 0) translate(-50%, -50%)"
+      }}
     >
-      {/* Primary Dot Pointer */}
+      {/* Secondary Interaction Ring (Centered) */}
       <div
-        ref={dotRef}
-        className={`fixed top-0 left-0 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)] transition-transform duration-100 ease-out ${
-          clicked ? "scale-75" : cursorType === "pointer" ? "scale-125 bg-emerald-400" : "w-2.5 h-2.5"
-        }`}
-        style={{ width: "10px", height: "10px" }}
-      />
-
-      {/* Secondary Trailing Interaction Ring */}
-      <div
-        ref={ringRef}
-        className={`fixed top-0 left-0 rounded-full border transition-all duration-200 ease-out ${
+        className={`absolute rounded-full border transition-all duration-200 ease-out ${
           cursorType === "pointer"
             ? "w-10 h-10 border-emerald-400/80 bg-emerald-500/10 scale-110"
             : cursorType === "project"
@@ -123,6 +106,15 @@ export const CustomCursor: React.FC = () => {
             : "w-8 h-8 border-emerald-500/50"
         }`}
       />
+
+      {/* Primary Emerald Dot Pointer (Centered) */}
+      <div
+        className={`absolute rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)] transition-transform duration-100 ease-out ${
+          clicked ? "scale-75" : cursorType === "pointer" ? "scale-125 bg-emerald-400" : "w-2.5 h-2.5"
+        }`}
+        style={{ width: "10px", height: "10px" }}
+      />
     </div>
   );
 };
+

@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { ContactPageClient } from "@/components/ContactPageClient";
 
 export const metadata: Metadata = {
-  title: "Contact & Connect",
-  description: "Contact Ashrith Namburi, Full Stack Developer. Get in touch for custom web application development, freelancing projects, or engineering inquiries.",
+  title: {
+    absolute: "Contact Ashrith Namburi"
+  },
+  description: "Get in touch with Ashrith Namburi for project inquiries, freelance web development, or engineering opportunities.",
   alternates: {
     canonical: "https://myportfolio-eight-ecru-21.vercel.app/contact"
   },
   openGraph: {
-    title: "Contact & Connect | Ashrith Namburi",
-    description: "Contact Ashrith Namburi, Full Stack Developer for project inquiries or collaboration.",
+    title: "Contact Ashrith Namburi",
+    description: "Get in touch with Ashrith Namburi for project inquiries, freelance web development, or engineering opportunities.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/contact"
   }
 };

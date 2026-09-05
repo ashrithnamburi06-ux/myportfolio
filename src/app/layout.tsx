@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     default: "Ashrith Namburi | Full Stack Developer",
     template: "%s | Ashrith Namburi"
   },
-  description: "Official portfolio of Ashrith Namburi, a Full Stack Developer specializing in Java, Spring Boot, React, SQL and modern web development.",
+  description: "Official portfolio of Ashrith Namburi, a Full Stack Developer building modern, scalable and user-focused web applications.",
   keywords: [
     "Ashrith Namburi",
     "Ashrith Namburi Portfolio",
@@ -39,6 +39,8 @@ export const metadata: Metadata = {
     "React",
     "Next.js",
     "SQL",
+    "Python",
+    "TypeScript",
     "Web Development"
   ],
   authors: [{ name: "Ashrith Namburi", url: "https://myportfolio-eight-ecru-21.vercel.app" }],
@@ -60,9 +62,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Ashrith Namburi | Full Stack Developer",
-    description: "Official portfolio of Ashrith Namburi, a Full Stack Developer specializing in Java, Spring Boot, React, SQL and modern web development.",
+    description: "Official portfolio of Ashrith Namburi, a Full Stack Developer building modern, scalable and user-focused web applications.",
     url: "https://myportfolio-eight-ecru-21.vercel.app",
-    siteName: "Ashrith Namburi Portfolio",
+    siteName: "Ashrith Namburi",
     images: [
       {
         url: "/og-image.png",
@@ -77,7 +79,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Ashrith Namburi | Full Stack Developer",
-    description: "Official portfolio of Ashrith Namburi, a Full Stack Developer specializing in Java, Spring Boot, React, SQL and modern web development.",
+    description: "Official portfolio of Ashrith Namburi, a Full Stack Developer building modern, scalable and user-focused web applications.",
     images: ["/og-image.png"]
   },
   icons: {
@@ -90,7 +92,6 @@ const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Ashrith Namburi",
-  "alternateName": ["Ashrith Namburi", "Ashrith Krishna"],
   "jobTitle": "Full Stack Developer",
   "url": "https://myportfolio-eight-ecru-21.vercel.app/",
   "sameAs": [
@@ -99,14 +100,13 @@ const personJsonLd = {
     "https://www.instagram.com/__ashrith_namburi_06/"
   ],
   "knowsAbout": [
-    "Java",
-    "Spring Boot",
     "React",
     "Next.js",
+    "Java",
+    "Spring Boot",
     "SQL",
-    "TypeScript",
-    "Node.js",
     "Python",
+    "TypeScript",
     "Full Stack Web Development"
   ],
   "alumniOf": {
@@ -118,11 +118,12 @@ const personJsonLd = {
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Ashrith Namburi Portfolio",
+  "name": "Ashrith Namburi",
   "url": "https://myportfolio-eight-ecru-21.vercel.app/",
-  "author": {
+  "publisher": {
     "@type": "Person",
-    "name": "Ashrith Namburi"
+    "name": "Ashrith Namburi",
+    "url": "https://myportfolio-eight-ecru-21.vercel.app/"
   }
 };
 
