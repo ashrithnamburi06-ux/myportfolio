@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "Ashrit@Analytics2026";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "1980";
 const AUTH_COOKIE_NAME = "admin_session";
 const AUTH_TOKEN_VALUE = "token_ashrith_admin_verified_2026";
 
