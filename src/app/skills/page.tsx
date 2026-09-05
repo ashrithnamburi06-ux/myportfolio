@@ -3,15 +3,15 @@ import { SkillsPageClient } from "@/components/SkillsPageClient";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Ashrith Namburi | Skills & Technologies"
+    absolute: "Ashrith Krishna Namburi | Skills & Technologies"
   },
-  description: "Technical skills, programming languages, web frameworks, and engineering proficiencies of Ashrith Namburi.",
+  description: "Technical skills, programming languages, web frameworks, and engineering proficiencies of Ashrith Krishna Namburi.",
   alternates: {
     canonical: "https://myportfolio-eight-ecru-21.vercel.app/skills"
   },
   openGraph: {
-    title: "Ashrith Namburi | Skills & Technologies",
-    description: "Technical skills, programming languages, web frameworks, and engineering proficiencies of Ashrith Namburi.",
+    title: "Ashrith Krishna Namburi | Skills & Technologies",
+    description: "Technical skills, programming languages, web frameworks, and engineering proficiencies of Ashrith Krishna Namburi.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/skills"
   }
 };

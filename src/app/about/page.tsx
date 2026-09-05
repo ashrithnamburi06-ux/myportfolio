@@ -6,7 +6,7 @@ const profilePageJsonLd = {
   "@type": "ProfilePage",
   "mainEntity": {
     "@type": "Person",
-    "name": "Ashrith Namburi",
+    "name": "Ashrith Krishna Namburi",
     "jobTitle": "Full Stack Developer",
     "url": "https://myportfolio-eight-ecru-21.vercel.app/",
     "sameAs": [
@@ -23,15 +23,15 @@ const profilePageJsonLd = {
 
 export const metadata: Metadata = {
   title: {
-    absolute: "About Ashrith Namburi | Full Stack Developer"
+    absolute: "About Ashrith Krishna Namburi | Full Stack Developer"
   },
-  description: "Learn about Ashrith Namburi, a Full Stack Developer and Computer Science Engineering student at KL University.",
+  description: "Learn about Ashrith Krishna Namburi, a Full Stack Developer and Computer Science Engineering student at KL University, with experience building modern web applications.",
   alternates: {
     canonical: "https://myportfolio-eight-ecru-21.vercel.app/about"
   },
   openGraph: {
-    title: "About Ashrith Namburi | Full Stack Developer",
-    description: "Learn about Ashrith Namburi, a Full Stack Developer and Computer Science Engineering student at KL University.",
+    title: "About Ashrith Krishna Namburi | Full Stack Developer",
+    description: "Learn about Ashrith Krishna Namburi, a Full Stack Developer and Computer Science Engineering student at KL University, with experience building modern web applications.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/about"
   }
 };

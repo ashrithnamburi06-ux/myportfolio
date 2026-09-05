@@ -3,15 +3,15 @@ import { HomePageClient } from "@/components/HomePageClient";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Ashrith Namburi | Full Stack Developer"
+    absolute: "Ashrith Krishna Namburi | Full Stack Developer"
   },
-  description: "Official portfolio of Ashrith Namburi, a Full Stack Developer building modern, scalable and user-focused web applications.",
+  description: "Ashrith Krishna Namburi is a Full Stack Developer and Computer Science Engineering student at KL University, building modern web applications and digital products.",
   alternates: {
     canonical: "https://myportfolio-eight-ecru-21.vercel.app/"
   },
   openGraph: {
-    title: "Ashrith Namburi | Full Stack Developer",
-    description: "Official portfolio of Ashrith Namburi, a Full Stack Developer building modern, scalable and user-focused web applications.",
+    title: "Ashrith Krishna Namburi | Full Stack Developer",
+    description: "Ashrith Krishna Namburi is a Full Stack Developer and Computer Science Engineering student at KL University, building modern web applications and digital products.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/"
   }
 };

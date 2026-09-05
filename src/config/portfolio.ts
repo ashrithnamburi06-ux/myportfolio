@@ -78,6 +78,7 @@ export interface PortfolioConfig {
   fullName: string;
   studentId: string;
   firstName: string;
+  middleName?: string;
   lastName: string;
   title: string;
   badgeText: string;
@@ -122,10 +123,11 @@ export interface PortfolioConfig {
 }
 
 export const portfolioConfig: PortfolioConfig = {
-  name: "Ashrith Namburi",
-  fullName: "Ashrith Namburi",
+  name: "Ashrith Krishna Namburi",
+  fullName: "Ashrith Krishna Namburi",
   studentId: "2300033155",
   firstName: "Ashrith",
+  middleName: "Krishna",
   lastName: "Namburi",
   title: "Full Stack Developer",
   badgeText: "🚀 Welcome to my personal portfolio",

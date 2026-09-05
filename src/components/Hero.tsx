@@ -24,7 +24,10 @@ export const Hero: React.FC = () => {
           </div>
 
           {/* MAIN NAME */}
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.08] text-slate-900 dark:text-white">
+          <h1
+            aria-label="Ashrith Krishna Namburi"
+            className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.08] text-slate-900 dark:text-white"
+          >
             {portfolioConfig.firstName}{" "}
             <span className="text-emerald-600 dark:text-emerald-400 drop-shadow-sm dark:drop-shadow-[0_0_25px_rgba(0,200,83,0.4)]">
               {portfolioConfig.lastName}

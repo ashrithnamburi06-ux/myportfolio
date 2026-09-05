@@ -3,15 +3,15 @@ import { CapstoneCaseStudyClient } from "@/components/CapstoneCaseStudyClient";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "KL CSE Capstone Management Portal | Ashrith Namburi"
+    absolute: "KL CSE Capstone Management Portal | Ashrith Krishna Namburi"
   },
-  description: "Engineering case study of the role-based Capstone Management Portal designed and built by Ashrith Namburi.",
+  description: "Engineering case study of the role-based Capstone Management Portal designed and built by Ashrith Krishna Namburi.",
   alternates: {
     canonical: "https://myportfolio-eight-ecru-21.vercel.app/projects/kl-cse-capstone-management"
   },
   openGraph: {
-    title: "KL CSE Capstone Management Portal | Ashrith Namburi",
-    description: "Engineering case study of the role-based Capstone Management Portal designed and built by Ashrith Namburi.",
+    title: "KL CSE Capstone Management Portal | Ashrith Krishna Namburi",
+    description: "Engineering case study of the role-based Capstone Management Portal designed and built by Ashrith Krishna Namburi.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/projects/kl-cse-capstone-management"
   }
 };

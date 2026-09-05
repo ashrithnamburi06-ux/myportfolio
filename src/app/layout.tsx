@@ -23,29 +23,30 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   metadataBase: new URL("https://myportfolio-eight-ecru-21.vercel.app"),
   title: {
-    default: "Ashrith Namburi | Full Stack Developer",
-    template: "%s | Ashrith Namburi"
+    default: "Ashrith Krishna Namburi | Full Stack Developer",
+    template: "%s | Ashrith Krishna Namburi"
   },
-  description: "Official portfolio of Ashrith Namburi, a Full Stack Developer building modern, scalable and user-focused web applications.",
+  description: "Ashrith Krishna Namburi is a Full Stack Developer and Computer Science Engineering student at KL University, building modern web applications and digital products.",
   keywords: [
-    "Ashrith Namburi",
-    "Ashrith Namburi Portfolio",
-    "Ashrith Namburi Developer",
-    "Ashrith Namburi Software Developer",
-    "Ashrith Namburi Full Stack Developer",
+    "Ashrith Krishna Namburi",
+    "Ashrith Krishna Namburi portfolio",
+    "Ashrith Krishna Namburi Full Stack Developer",
+    "Ashrith Krishna Namburi KL University",
+    "Ashrith Krishna Namburi developer",
     "Full Stack Developer",
-    "Java",
-    "Spring Boot",
+    "KL University",
     "React",
     "Next.js",
-    "SQL",
-    "Python",
     "TypeScript",
+    "Node.js",
+    "Python",
+    "Django",
+    "SQL",
     "Web Development"
   ],
-  authors: [{ name: "Ashrith Namburi", url: "https://myportfolio-eight-ecru-21.vercel.app" }],
-  creator: "Ashrith Namburi",
-  publisher: "Ashrith Namburi",
+  authors: [{ name: "Ashrith Krishna Namburi", url: "https://myportfolio-eight-ecru-21.vercel.app" }],
+  creator: "Ashrith Krishna Namburi",
+  publisher: "Ashrith Krishna Namburi",
   robots: {
     index: true,
     follow: true,
@@ -61,16 +62,16 @@ export const metadata: Metadata = {
     canonical: "https://myportfolio-eight-ecru-21.vercel.app"
   },
   openGraph: {
-    title: "Ashrith Namburi | Full Stack Developer",
-    description: "Official portfolio of Ashrith Namburi, a Full Stack Developer building modern, scalable and user-focused web applications.",
+    title: "Ashrith Krishna Namburi | Full Stack Developer",
+    description: "Ashrith Krishna Namburi is a Full Stack Developer and Computer Science Engineering student at KL University, building modern web applications and digital products.",
     url: "https://myportfolio-eight-ecru-21.vercel.app",
-    siteName: "Ashrith Namburi",
+    siteName: "Ashrith Krishna Namburi",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Ashrith Namburi Portfolio Preview"
+        alt: "Ashrith Krishna Namburi Portfolio Preview"
       }
     ],
     locale: "en_US",
@@ -78,8 +79,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ashrith Namburi | Full Stack Developer",
-    description: "Official portfolio of Ashrith Namburi, a Full Stack Developer building modern, scalable and user-focused web applications.",
+    title: "Ashrith Krishna Namburi | Full Stack Developer",
+    description: "Ashrith Krishna Namburi is a Full Stack Developer and Computer Science Engineering student at KL University, building modern web applications and digital products.",
     images: ["/og-image.png"]
   },
   icons: {
@@ -91,7 +92,7 @@ export const metadata: Metadata = {
 const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Ashrith Namburi",
+  "name": "Ashrith Krishna Namburi",
   "jobTitle": "Full Stack Developer",
   "url": "https://myportfolio-eight-ecru-21.vercel.app/",
   "sameAs": [
@@ -102,11 +103,16 @@ const personJsonLd = {
   "knowsAbout": [
     "React",
     "Next.js",
-    "Java",
-    "Spring Boot",
-    "SQL",
-    "Python",
     "TypeScript",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "Django",
+    "SQL",
+    "MySQL",
+    "Supabase",
+    "MongoDB",
+    "Firebase",
     "Full Stack Web Development"
   ],
   "alumniOf": {
@@ -118,11 +124,11 @@ const personJsonLd = {
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Ashrith Namburi",
+  "name": "Ashrith Krishna Namburi",
   "url": "https://myportfolio-eight-ecru-21.vercel.app/",
   "publisher": {
     "@type": "Person",
-    "name": "Ashrith Namburi",
+    "name": "Ashrith Krishna Namburi",
     "url": "https://myportfolio-eight-ecru-21.vercel.app/"
   }
 };

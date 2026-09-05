@@ -3,15 +3,15 @@ import { ExperiencePageClient } from "@/components/ExperiencePageClient";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Ashrith Namburi | Experience"
+    absolute: "Ashrith Krishna Namburi | Experience"
   },
-  description: "Professional work experience, freelancing contracts, and virtual internships of Ashrith Namburi.",
+  description: "Professional work experience, freelancing contracts, and virtual internships of Ashrith Krishna Namburi.",
   alternates: {
     canonical: "https://myportfolio-eight-ecru-21.vercel.app/experience"
   },
   openGraph: {
-    title: "Ashrith Namburi | Experience",
-    description: "Professional work experience, freelancing contracts, and virtual internships of Ashrith Namburi.",
+    title: "Ashrith Krishna Namburi | Experience",
+    description: "Professional work experience, freelancing contracts, and virtual internships of Ashrith Krishna Namburi.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/experience"
   }
 };

@@ -10,7 +10,7 @@ const projectDataMap: Record<string, GenericProjectData> = {
     description: "Real-time deal aggregation and discount discovery web platform enabling users to browse, filter, and track regional shopping offers.",
     highlights: ["Real-time Aggregation", "RESTful API", "User Bookmarks", "SQL Database"],
     technologies: ["Node.js", "Express.js", "React", "SQL", "Supabase"],
-    overview: "Dealrix aggregates live shopping deals and regional discounts from multiple online retailers into one unified dashboard. Built by Ashrith Namburi with a scalable Node.js/Express backend and a modern React frontend.",
+    overview: "Dealrix aggregates live shopping deals and regional discounts from multiple online retailers into one unified dashboard. Built by Ashrith Krishna Namburi with a scalable Node.js/Express backend and a modern React frontend.",
     demoUrl: "https://www.dealrix.in/",
     githubUrl: "https://github.com/ashritkrishna"
   },
@@ -22,7 +22,7 @@ const projectDataMap: Record<string, GenericProjectData> = {
     description: "Web application developed during the Google Generative AI Virtual Internship, integrating LLM APIs and prompt engineering pipelines.",
     highlights: ["Generative Models", "Prompt Pipelines", "Google Cloud", "Fast Execution"],
     technologies: ["Python", "AWS", "Node.js", "Express.js"],
-    overview: "Showcases hands-on implementations of Generative AI APIs, intelligent text/code synthesis workflows, and cloud-based AI deployments by Ashrith Namburi.",
+    overview: "Showcases hands-on implementations of Generative AI APIs, intelligent text/code synthesis workflows, and cloud-based AI deployments by Ashrith Krishna Namburi.",
     demoUrl: "https://github.com/ashritkrishna",
     githubUrl: "https://github.com/ashritkrishna"
   },
@@ -34,7 +34,7 @@ const projectDataMap: Record<string, GenericProjectData> = {
     description: "Custom personal developer portfolio engineered with Next.js 14+ App Router, TypeScript, Tailwind CSS, and Framer Motion.",
     highlights: ["App Router", "TypeScript", "Tailwind CSS", "100% Responsive"],
     technologies: ["Next.js", "React", "Python", "SQL"],
-    overview: "Designed and developed from scratch by Ashrith Namburi to showcase full-stack projects, interactive case studies, technical skills, and achievements.",
+    overview: "Designed and developed from scratch by Ashrith Krishna Namburi to showcase full-stack projects, interactive case studies, technical skills, and achievements.",
     demoUrl: "https://myportfolio-eight-ecru-21.vercel.app/",
     githubUrl: "https://github.com/ashritkrishna"
   }
@@ -50,14 +50,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const titleString =
     slug === "dealrix"
-      ? "Dealrix | Full Stack E-Commerce Platform | Ashrith Namburi"
-      : `${proj.title} | Ashrith Namburi`;
+      ? "Dealrix | Web Application | Ashrith Krishna Namburi"
+      : `${proj.title} | Ashrith Krishna Namburi`;
 
   return {
     title: {
       absolute: titleString
     },
-    description: `${proj.description} - Engineering project developed by Ashrith Namburi.`,
+    description: `${proj.description} - Engineering project developed by Ashrith Krishna Namburi.`,
     alternates: {
       canonical: `https://myportfolio-eight-ecru-21.vercel.app/projects/${slug}`
     },

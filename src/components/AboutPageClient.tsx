@@ -59,7 +59,7 @@ export const AboutPageClient: React.FC = () => {
             </span>
           </h1>
           <p className="text-slate-700 dark:text-gray-300 text-base sm:text-lg leading-relaxed mb-3">
-            I&apos;m Ashrith Namburi, a Full Stack Developer and Computer Science Engineering student at KL University passionate about building modern, scalable and user-focused web applications.
+            I&apos;m Ashrith Krishna Namburi, a Full Stack Developer and Computer Science Engineering student at KL University passionate about building modern, scalable and user-focused web applications.
           </p>
           <p className="text-slate-500 dark:text-gray-400 text-sm sm:text-base leading-relaxed">
             I enjoy solving real-world problems and writing clean, efficient code that makes a genuine difference.
