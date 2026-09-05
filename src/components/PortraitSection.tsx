@@ -50,7 +50,7 @@ export const PortraitSection: React.FC = () => {
         >
           <Image
             src="/images/ashrit-portrait-clean.png"
-            alt="Ashrit Krishna - Full Stack Developer"
+            alt="Ashrith Namburi - Full Stack Developer"
             width={1024}
             height={1024}
             priority

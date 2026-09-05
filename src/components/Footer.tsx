@@ -14,10 +14,10 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-5 space-y-3">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-emerald-600 flex items-center justify-center text-white font-black text-sm shadow-md">
-                AK
+                AN
               </div>
               <span className="text-lg font-black text-slate-900 dark:text-white tracking-tight">
-                ASHRIT KRISHNA
+                ASHRITH NAMBURI
               </span>
             </div>
 
@@ -129,7 +129,7 @@ export const Footer: React.FC = () => {
 
         {/* COPYRIGHT BOTTOM BAR */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 dark:text-gray-400 gap-2">
-          <span>© {new Date().getFullYear()} Ashrit Krishna. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Ashrith Namburi. All rights reserved.</span>
           <span className="font-mono text-[11px]">Built with Next.js &amp; Tailwind CSS</span>
         </div>
       </div>

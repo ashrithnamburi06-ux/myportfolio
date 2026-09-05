@@ -55,7 +55,7 @@ export const ResumeHero: React.FC = () => {
 
           <a
             href={portfolioConfig.resumePdfUrl}
-            download="Ashrit-Krishna-Resume.pdf"
+            download="Ashrith-Namburi-Resume.pdf"
             className="inline-flex items-center gap-2 px-5 py-2.5 bg-white hover:bg-slate-100 dark:bg-[#03120A] dark:hover:bg-emerald-950/40 text-slate-800 dark:text-gray-200 font-medium text-sm rounded-xl border border-slate-200 dark:border-emerald-900/50 transition-all active:scale-95 shadow-sm"
           >
             <Download className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />

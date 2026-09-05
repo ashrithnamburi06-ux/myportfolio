@@ -13,6 +13,9 @@ export const ContactCards: React.FC = () => {
           {/* PRIMARY EMAIL */}
           <a
             href={portfolioConfig.socialLinks.email}
+            onClick={() => {
+              import("@/lib/analytics").then(({ trackEmailClick }) => trackEmailClick());
+            }}
             className="flex items-center gap-3 p-3 bg-slate-50 hover:bg-emerald-50 dark:bg-[#051A0F] dark:hover:bg-[#082918] border border-slate-200 dark:border-emerald-900/30 rounded-xl transition-all group"
           >
             <div className="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-950/80 border border-emerald-300 dark:border-emerald-500/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 group-hover:scale-105 transition-transform">
@@ -29,6 +32,9 @@ export const ContactCards: React.FC = () => {
             href={portfolioConfig.socialLinks.linkedin}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => {
+              import("@/lib/analytics").then(({ trackLinkedInClick }) => trackLinkedInClick());
+            }}
             className="flex items-center gap-3 p-3 bg-slate-50 hover:bg-emerald-50 dark:bg-[#051A0F] dark:hover:bg-[#082918] border border-slate-200 dark:border-emerald-900/30 rounded-xl transition-all group"
           >
             <div className="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-950/80 border border-emerald-300 dark:border-emerald-500/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 group-hover:scale-105 transition-transform">
@@ -47,6 +53,9 @@ export const ContactCards: React.FC = () => {
             href={portfolioConfig.socialLinks.github}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => {
+              import("@/lib/analytics").then(({ trackGitHubClick }) => trackGitHubClick("general"));
+            }}
             className="flex items-center gap-3 p-3 bg-slate-50 hover:bg-emerald-50 dark:bg-[#051A0F] dark:hover:bg-[#082918] border border-slate-200 dark:border-emerald-900/30 rounded-xl transition-all group"
           >
             <div className="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-950/80 border border-emerald-300 dark:border-emerald-500/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 group-hover:scale-105 transition-transform">
@@ -65,6 +74,9 @@ export const ContactCards: React.FC = () => {
             href={portfolioConfig.socialLinks.instagram}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => {
+              import("@/lib/analytics").then(({ trackInstagramClick }) => trackInstagramClick());
+            }}
             className="flex items-center gap-3 p-3 bg-slate-50 hover:bg-emerald-50 dark:bg-[#051A0F] dark:hover:bg-[#082918] border border-slate-200 dark:border-emerald-900/30 rounded-xl transition-all group"
           >
             <div className="w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-950/80 border border-emerald-300 dark:border-emerald-500/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 group-hover:scale-105 transition-transform">

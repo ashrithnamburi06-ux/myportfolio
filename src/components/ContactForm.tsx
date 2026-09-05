@@ -46,6 +46,13 @@ export const ContactForm: React.FC = () => {
     // Simulate clean frontend submission & validation delay
     setTimeout(() => {
       setStatus("success");
+      try {
+        import("@/lib/analytics").then(({ sendAnalyticsEvent }) => {
+          sendAnalyticsEvent("contact_form_submit");
+        });
+      } catch {
+        // Fail silently
+      }
     }, 1000);
   };
 
@@ -61,7 +68,7 @@ export const ContactForm: React.FC = () => {
           <CheckCircle2 className="w-10 h-10 text-emerald-600 dark:text-emerald-400 mx-auto" />
           <h3 className="text-lg font-bold text-slate-900 dark:text-white">Message Form Validated!</h3>
           <p className="text-slate-700 dark:text-emerald-300 text-xs max-w-md mx-auto leading-relaxed">
-            Thank you, <strong>{formData.name}</strong>. Your message structure has been validated. For an immediate response, you can also reach Ashrit directly at{" "}
+            Thank you, <strong>{formData.name}</strong>. Your message structure has been validated. For an immediate response, you can also reach Ashrith directly at{" "}
             <a href={portfolioConfig.socialLinks.email} className="font-mono underline font-bold text-emerald-700 dark:text-emerald-400">
               ashrithnamburi06@gmail.com
             </a>.

@@ -89,15 +89,15 @@ export const AppreciationLetterViewer: React.FC<AppreciationLetterViewerProps> =
               <p className="font-bold text-slate-900">TO WHOM IT MAY CONCERN</p>
 
               <p>
-                This is to formally recognize and appreciate <strong>Ashrit Krishna</strong> for his outstanding initiative and technical contribution in engineering and deploying the official website for the college department.
+                This is to formally recognize and appreciate <strong>Ashrith Namburi (Namburi Ashrith Krishna)</strong> for his outstanding initiative and technical contribution in engineering and deploying the official website for the college department.
               </p>
 
               <p>
-                Ashrit independently managed the entire development process — demonstrating strong full-stack software capabilities, clean design standards, and dedicated commitment to delivering a functional digital platform for department faculty and students.
+                Ashrith independently managed the entire development process — demonstrating strong full-stack software capabilities, clean design standards, and dedicated commitment to delivering a functional digital platform for department faculty and students.
               </p>
 
               <p className="pt-2 italic text-slate-700">
-                &ldquo;We congratulate Ashrit Krishna on this achievement and wish him continued success in his full-stack engineering career.&rdquo;
+                &ldquo;We congratulate Ashrith Namburi on this achievement and wish him continued success in his full-stack engineering career.&rdquo;
               </p>
             </div>
 

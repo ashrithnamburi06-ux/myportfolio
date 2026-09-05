@@ -33,7 +33,10 @@ export const ResumeDownloads: React.FC = () => {
 
           <a
             href={portfolioConfig.resumePdfUrl}
-            download="Ashrit-Krishna-Resume.pdf"
+            download="Ashrith-Namburi-Resume.pdf"
+            onClick={() => {
+              import("@/lib/analytics").then(({ trackResumeDownload }) => trackResumeDownload());
+            }}
             className="w-full py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm rounded-xl shadow-md transition-all active:scale-[0.99] flex items-center justify-center gap-2"
           >
             <Download className="w-4 h-4" />

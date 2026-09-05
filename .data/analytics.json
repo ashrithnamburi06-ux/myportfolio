@@ -1,0 +1,143 @@
+{
+  "summary": {
+    "totalVisitors": 2,
+    "uniqueVisitorsCount": 1,
+    "totalSessions": 2,
+    "totalPageViews": 9,
+    "avgSessionDurationSeconds": 44
+  },
+  "visitors": {
+    "v_clfhtofps_mto31s29": {
+      "firstSeen": "2026-09-05T07:50:08.754Z",
+      "lastSeen": "2026-09-05T08:00:09.922Z",
+      "visitCount": 13
+    }
+  },
+  "sessions": {
+    "s_qfk2we28h_mto31s29": {
+      "visitorId": "v_clfhtofps_mto31s29",
+      "startTime": "2026-09-05T07:50:08.754Z",
+      "lastActivity": "2026-09-05T07:50:36.402Z",
+      "durationSeconds": 28,
+      "pagesViewed": 4,
+      "deviceType": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "referrer": "Direct",
+      "entryPage": "/",
+      "exitPage": "/"
+    },
+    "s_kr18occo3_mto3de5v": {
+      "visitorId": "v_clfhtofps_mto31s29",
+      "startTime": "2026-09-05T07:59:09.834Z",
+      "lastActivity": "2026-09-05T08:00:09.922Z",
+      "durationSeconds": 60,
+      "pagesViewed": 5,
+      "deviceType": "Desktop",
+      "browser": "Chrome",
+      "os": "Windows",
+      "referrer": "Direct",
+      "entryPage": "/",
+      "exitPage": "/"
+    }
+  },
+  "pages": {
+    "/": {
+      "views": 6,
+      "uniqueVisitors": [
+        "v_clfhtofps_mto31s29"
+      ]
+    },
+    "/contact": {
+      "views": 1,
+      "uniqueVisitors": [
+        "v_clfhtofps_mto31s29"
+      ]
+    },
+    "/skills": {
+      "views": 1,
+      "uniqueVisitors": [
+        "v_clfhtofps_mto31s29"
+      ]
+    },
+    "/about": {
+      "views": 1,
+      "uniqueVisitors": [
+        "v_clfhtofps_mto31s29"
+      ]
+    }
+  },
+  "projects": {
+    "kl-cse-capstone-management": {
+      "views": 0,
+      "exploreClicks": 0,
+      "liveDemoClicks": 0,
+      "githubClicks": 0
+    },
+    "gr-styles": {
+      "views": 0,
+      "exploreClicks": 0,
+      "liveDemoClicks": 0,
+      "githubClicks": 0
+    },
+    "dealrix": {
+      "views": 0,
+      "exploreClicks": 0,
+      "liveDemoClicks": 0,
+      "githubClicks": 0
+    },
+    "developer-portfolio": {
+      "views": 0,
+      "exploreClicks": 0,
+      "liveDemoClicks": 0,
+      "githubClicks": 0
+    },
+    "ai-showcase": {
+      "views": 0,
+      "exploreClicks": 0,
+      "liveDemoClicks": 0,
+      "githubClicks": 0
+    }
+  },
+  "resume": {
+    "views": 0,
+    "pdfDownloads": 0
+  },
+  "contact": {
+    "pageViews": 1,
+    "formSubmissions": 0,
+    "emailClicks": 0,
+    "ctaClicks": 1
+  },
+  "social": {
+    "github": 0,
+    "linkedin": 0,
+    "instagram": 0
+  },
+  "exitIntent": {
+    "shown": 2,
+    "dismissed": 1,
+    "contactClicked": 1
+  },
+  "timeSeries": {
+    "2026-09-05": {
+      "visitors": 0,
+      "pageViews": 9,
+      "sessions": 0
+    }
+  },
+  "deviceBreakdown": {
+    "desktop": 2,
+    "mobile": 0,
+    "tablet": 0
+  },
+  "browserBreakdown": {
+    "Chrome": 2
+  },
+  "osBreakdown": {
+    "Windows": 2
+  },
+  "referrerBreakdown": {
+    "Direct": 2
+  }
+}

@@ -17,7 +17,7 @@ export const Navbar: React.FC = () => {
         {/* LOGO AREA */}
         <Link href="/" className="flex items-center gap-3 group">
           <span className="text-3xl font-black tracking-tighter text-emerald-600 dark:text-emerald-400 group-hover:text-emerald-500 transition-colors">
-            AK
+            AN
           </span>
           <span className="text-lg font-bold tracking-wider text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-100 transition-colors hidden sm:inline-block">
             {portfolioConfig.name}

@@ -56,6 +56,23 @@ export interface FeaturedRecognitionItem {
   letterPath?: string;
 }
 
+export interface ProjectItemConfig {
+  id: string;
+  title: string;
+  subtitle: string;
+  category: string;
+  isFreelance?: boolean;
+  projectTypeBadge?: string;
+  description: string;
+  highlights: string[];
+  technologies: string[];
+  featured: boolean;
+  image?: string;
+  detailUrl?: string;
+  liveDemoUrl: string;
+  githubUrl?: string;
+}
+
 export interface PortfolioConfig {
   name: string;
   fullName: string;
@@ -81,6 +98,7 @@ export interface PortfolioConfig {
   navItems: NavItem[];
   technologies: TechItem[];
   stats: StatItem[];
+  projects: ProjectItemConfig[];
   annotation: {
     line1: string;
     line2: string;
@@ -104,11 +122,11 @@ export interface PortfolioConfig {
 }
 
 export const portfolioConfig: PortfolioConfig = {
-  name: "Ashrit Krishna",
-  fullName: "NAMBURI ASHRITH KRISHNA",
+  name: "Ashrith Namburi",
+  fullName: "Ashrith Namburi",
   studentId: "2300033155",
-  firstName: "Ashrit",
-  lastName: "Krishna",
+  firstName: "Ashrith",
+  lastName: "Namburi",
   title: "Full Stack Developer",
   badgeText: "🚀 Welcome to my personal portfolio",
   introduction: {
@@ -124,7 +142,7 @@ export const portfolioConfig: PortfolioConfig = {
     location: "Vijayawada, India"
   },
   resumeUrl: "/resume",
-  resumePdfUrl: "/resume/Ashrit-Krishna-Resume.pdf",
+  resumePdfUrl: "/resume/Ashrith-Namburi-Resume.pdf",
   navItems: [
     { label: "Home", href: "/", iconName: "Home" },
     { label: "About", href: "/about", iconName: "User" },
@@ -149,6 +167,76 @@ export const portfolioConfig: PortfolioConfig = {
     { number: "5+", label: "Projects Completed", icon: "Briefcase" },
     { number: "9.16", label: "CGPA", sublabel: "KL University", icon: "GraduationCap" },
     { number: "Always", label: "Learning & Improving", icon: "Trophy" }
+  ],
+  projects: [
+    {
+      id: "kl-cse-capstone-management",
+      title: "KL CSE Capstone Management & Evaluation Portal",
+      subtitle: "Role-Based Capstone Project Management, Assignment, Evaluation & Academic Review Platform",
+      category: "Featured Academic ERP & Evaluation Platform",
+      description: "Designed and engineered a role-based capstone management platform that centralizes student/team assignments, evaluator workflows, rubric-driven assessments, attendance, review cycles, and administrative evaluation tracking.",
+      highlights: ["Role-Based Access (5 Roles)", "Deterministic Identity Resolution", "Rubric-Driven Assessments", "Cross-Evaluator Mark Isolation", "Bulk CSV/XLSX Sync"],
+      technologies: ["React", "Vite", "Firebase Auth", "Cloud Firestore", "Tailwind CSS", "PapaParse", "jsPDF"],
+      featured: true,
+      detailUrl: "/projects/kl-cse-capstone-management",
+      liveDemoUrl: "https://capstone-psi-topaz.vercel.app/",
+      githubUrl: "https://github.com/reviewportalklu-cse2/capstone"
+    },
+    {
+      id: "gr-styles",
+      title: "GR STYLES",
+      subtitle: "Modern Fashion E-Commerce Web Platform",
+      category: "FREELANCING PROJECT",
+      isFreelance: true,
+      projectTypeBadge: "Freelancing Project",
+      description: "A full-stack, responsive and feature-rich online shopping platform built with Python, Django, MySQL, and modern web UI technologies.",
+      highlights: ["100% Responsive", "Secure Auth", "Fast Load Time", "Scalable Architecture"],
+      technologies: ["Python", "Django", "HTML5", "CSS3", "JavaScript", "MySQL", "Bootstrap"],
+      featured: true,
+      image: "/images/gr-styles-mockup.png",
+      detailUrl: "/projects/gr-styles",
+      liveDemoUrl: "https://www.grstyles.com/",
+      githubUrl: "https://github.com/ashritkrishna"
+    },
+    {
+      id: "dealrix",
+      title: "Dealrix",
+      subtitle: "Real-World Deals & Discounts Web Application",
+      category: "Full-Stack Web App",
+      description: "Real-time deal aggregation and discount discovery web platform enabling users to browse, filter, and track regional shopping offers.",
+      highlights: ["Real-time Aggregation", "RESTful API", "User Bookmarks", "SQL Database"],
+      technologies: ["Node.js", "Express.js", "React", "SQL", "Supabase"],
+      featured: false,
+      detailUrl: "/projects/dealrix",
+      liveDemoUrl: "https://www.dealrix.in/",
+      githubUrl: "https://github.com/ashritkrishna"
+    },
+    {
+      id: "ai-showcase",
+      title: "Google Gen AI Showcase",
+      subtitle: "Intelligent Generative AI Web Application",
+      category: "AI & Machine Learning",
+      description: "Web application developed during the Google Generative AI Virtual Internship, integrating LLM APIs and prompt engineering pipelines.",
+      highlights: ["Generative Models", "Prompt Pipelines", "Google Cloud", "Fast Execution"],
+      technologies: ["Python", "AWS", "Node.js", "Express.js"],
+      featured: false,
+      detailUrl: "/projects/ai-showcase",
+      liveDemoUrl: "https://github.com/ashritkrishna",
+      githubUrl: "https://github.com/ashritkrishna"
+    },
+    {
+      id: "developer-portfolio",
+      title: "Personal Developer Portfolio",
+      subtitle: "High-Performance Portfolio & Case Studies",
+      category: "Web Engineering",
+      description: "Custom personal developer portfolio engineered with Next.js 14+ App Router, TypeScript, Tailwind CSS, and Framer Motion.",
+      highlights: ["App Router", "TypeScript", "Tailwind CSS", "100% Responsive"],
+      technologies: ["Next.js", "React", "Python", "SQL"],
+      featured: false,
+      detailUrl: "/projects/developer-portfolio",
+      liveDemoUrl: "https://myportfolio-eight-ecru-21.vercel.app/",
+      githubUrl: "https://github.com/ashritkrishna"
+    }
   ],
   annotation: {
     line1: "Passionate",
