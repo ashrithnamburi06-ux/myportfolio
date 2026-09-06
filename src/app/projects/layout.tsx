@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Projects & Case Studies | Ashrith Namburi",
     description: "Explore web development projects, academic ERP systems, and full-stack software applications built by Ashrith Namburi.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/projects",
-    siteName: "Ashrith Namburi Portfolio"
+    siteName: "Ashrith Krishna Namburi"
   }
 };
 

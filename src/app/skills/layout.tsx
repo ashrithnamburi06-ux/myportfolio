@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Technical Skills & Stack | Ashrith Namburi",
     description: "Explore the full-stack developer skills of Ashrith Namburi, including Java, Spring Boot, React, Next.js, Node.js, Python, SQL, and modern web engineering tools.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/skills",
-    siteName: "Ashrith Namburi Portfolio"
+    siteName: "Ashrith Krishna Namburi"
   }
 };
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Work Experience & Internships | Ashrith Namburi",
     description: "Review Ashrith Namburi's professional engineering experience, freelance full-stack projects, and Google Generative AI Virtual Internship work.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/experience",
-    siteName: "Ashrith Namburi Portfolio"
+    siteName: "Ashrith Krishna Namburi"
   }
 };
 

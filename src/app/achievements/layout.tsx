@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Achievements & Certifications | Ashrith Namburi",
     description: "View honors, academic achievements, Smart India Hackathon qualification, and cloud/AI certifications earned by Ashrith Namburi.",
     url: "https://myportfolio-eight-ecru-21.vercel.app/achievements",
-    siteName: "Ashrith Namburi Portfolio"
+    siteName: "Ashrith Krishna Namburi"
   }
 };
 

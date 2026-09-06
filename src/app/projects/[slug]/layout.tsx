@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: `${current.title} | Ashrith Namburi`,
       description: current.desc,
       url: `https://myportfolio-eight-ecru-21.vercel.app/projects/${slug}`,
-      siteName: "Ashrith Namburi Portfolio"
+      siteName: "Ashrith Krishna Namburi"
     }
   };
 }

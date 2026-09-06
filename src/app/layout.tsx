@@ -135,6 +135,10 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Ashrith Krishna Namburi",
+  "alternateName": [
+    "Ashrith Namburi",
+    "Ashrith Krishna"
+  ],
   "url": "https://myportfolio-eight-ecru-21.vercel.app/",
   "publisher": {
     "@type": "Person",
