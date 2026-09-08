@@ -138,6 +138,7 @@ export const ProjectsListingClient: React.FC = () => {
                         href={proj.liveDemoUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`Open ${proj.title} live demo`}
                         onClick={() => trackLiveDemoClick(proj.id)}
                         className="inline-flex items-center gap-2 px-4 py-2.5 bg-slate-100 hover:bg-slate-200 dark:bg-[#051A0F] dark:hover:bg-[#082918] text-slate-800 dark:text-gray-200 font-medium text-sm rounded-xl border border-slate-200 dark:border-emerald-900/50 transition-all active:scale-95 shadow-sm"
                       >
@@ -152,6 +153,7 @@ export const ProjectsListingClient: React.FC = () => {
                         href={proj.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`View ${proj.title} repository on GitHub`}
                         onClick={() => trackGitHubClick(proj.id)}
                         className="inline-flex items-center gap-2 px-4 py-2.5 bg-slate-100 hover:bg-slate-200 dark:bg-[#051A0F] dark:hover:bg-[#082918] text-slate-800 dark:text-gray-200 font-medium text-sm rounded-xl border border-slate-200 dark:border-emerald-900/50 transition-all active:scale-95 shadow-sm"
                       >

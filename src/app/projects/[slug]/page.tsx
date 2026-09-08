@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { GenericProjectCaseStudyClient, GenericProjectData } from "@/components/GenericProjectCaseStudyClient";
+import { portfolioConfig } from "@/config/portfolio";
 
 const projectDataMap: Record<string, GenericProjectData> = {
   dealrix: {
@@ -12,7 +13,7 @@ const projectDataMap: Record<string, GenericProjectData> = {
     technologies: ["Node.js", "Express.js", "React", "SQL", "Supabase"],
     overview: "Dealrix aggregates live shopping deals and regional discounts from multiple online retailers into one unified dashboard. Built by Ashrith Krishna Namburi with a scalable Node.js/Express backend and a modern React frontend.",
     demoUrl: "https://www.dealrix.in/",
-    githubUrl: "https://github.com/ashritkrishna"
+    githubUrl: portfolioConfig.socialLinks.github
   },
   "ai-showcase": {
     id: "ai-showcase",
@@ -23,8 +24,8 @@ const projectDataMap: Record<string, GenericProjectData> = {
     highlights: ["Generative Models", "Prompt Pipelines", "Google Cloud", "Fast Execution"],
     technologies: ["Python", "AWS", "Node.js", "Express.js"],
     overview: "Showcases hands-on implementations of Generative AI APIs, intelligent text/code synthesis workflows, and cloud-based AI deployments by Ashrith Krishna Namburi.",
-    demoUrl: "https://github.com/ashritkrishna",
-    githubUrl: "https://github.com/ashritkrishna"
+    demoUrl: portfolioConfig.socialLinks.github,
+    githubUrl: portfolioConfig.socialLinks.github
   },
   "developer-portfolio": {
     id: "developer-portfolio",
@@ -36,7 +37,7 @@ const projectDataMap: Record<string, GenericProjectData> = {
     technologies: ["Next.js", "React", "Python", "SQL"],
     overview: "Designed and developed from scratch by Ashrith Krishna Namburi to showcase full-stack projects, interactive case studies, technical skills, and achievements.",
     demoUrl: "https://myportfolio-eight-ecru-21.vercel.app/",
-    githubUrl: "https://github.com/ashritkrishna"
+    githubUrl: portfolioConfig.socialLinks.github
   }
 };
 

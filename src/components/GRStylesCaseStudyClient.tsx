@@ -175,6 +175,7 @@ export const GRStylesCaseStudyClient: React.FC = () => {
                 href={liveDemoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Open GR STYLES live demo"
                 onClick={() => trackLiveDemoClick("gr-styles")}
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm rounded-xl shadow-md transition-all active:scale-95"
               >
@@ -183,9 +184,10 @@ export const GRStylesCaseStudyClient: React.FC = () => {
               </a>
 
               <a
-                href="https://github.com/ashritkrishna"
+                href={grStylesProject?.githubUrl || portfolioConfig.socialLinks.github}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Ashrith Krishna Namburi on GitHub"
                 onClick={() => trackGitHubClick("gr-styles")}
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-white hover:bg-slate-100 dark:bg-[#03120A] dark:hover:bg-emerald-950/40 text-slate-800 dark:text-gray-200 font-medium text-sm rounded-xl border border-slate-200 dark:border-emerald-900/50 transition-all active:scale-95 shadow-sm"
               >
@@ -501,6 +503,7 @@ export const GRStylesCaseStudyClient: React.FC = () => {
               href={liveDemoUrl}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Open GR STYLES live demo"
               onClick={() => trackLiveDemoClick("gr-styles")}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm rounded-xl shadow-md transition-all active:scale-95"
             >
@@ -509,9 +512,10 @@ export const GRStylesCaseStudyClient: React.FC = () => {
             </a>
 
             <a
-              href="https://github.com/ashritkrishna"
+              href={grStylesProject?.githubUrl || portfolioConfig.socialLinks.github}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Visit Ashrith Krishna Namburi on GitHub"
               onClick={() => trackGitHubClick("gr-styles")}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-white hover:bg-slate-100 dark:bg-[#03120A] dark:hover:bg-emerald-950/40 text-slate-800 dark:text-gray-200 font-medium text-sm rounded-xl border border-slate-300 dark:border-emerald-900/50 transition-all active:scale-95 shadow-sm"
             >

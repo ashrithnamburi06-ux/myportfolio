@@ -12,7 +12,7 @@ export const SocialLinks: React.FC = () => {
         href={portfolioConfig.socialLinks.linkedin}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="LinkedIn Profile"
+        aria-label="Visit Ashrith Krishna Namburi on LinkedIn"
         className="w-10 h-10 rounded-xl bg-white dark:bg-[#03120A] border border-slate-200 dark:border-emerald-900/40 hover:border-emerald-500 dark:hover:border-emerald-500 flex items-center justify-center text-slate-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-all duration-200 shadow-sm active:scale-95 group"
       >
         <svg className="w-5 h-5 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
@@ -25,7 +25,7 @@ export const SocialLinks: React.FC = () => {
         href={portfolioConfig.socialLinks.github}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="GitHub Profile"
+        aria-label="Visit Ashrith Krishna Namburi on GitHub"
         className="w-10 h-10 rounded-xl bg-white dark:bg-[#03120A] border border-slate-200 dark:border-emerald-900/40 hover:border-emerald-500 dark:hover:border-emerald-500 flex items-center justify-center text-slate-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-all duration-200 shadow-sm active:scale-95 group"
       >
         <svg className="w-5 h-5 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
@@ -38,7 +38,7 @@ export const SocialLinks: React.FC = () => {
         href={portfolioConfig.socialLinks.instagram}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Instagram Profile"
+        aria-label="Visit Ashrith Krishna Namburi on Instagram"
         className="w-10 h-10 rounded-xl bg-white dark:bg-[#03120A] border border-slate-200 dark:border-emerald-900/40 hover:border-emerald-500 dark:hover:border-emerald-500 flex items-center justify-center text-slate-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-all duration-200 shadow-sm active:scale-95 group"
       >
         <svg className="w-5 h-5 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24">
@@ -49,7 +49,7 @@ export const SocialLinks: React.FC = () => {
       {/* EMAIL */}
       <a
         href={portfolioConfig.socialLinks.email}
-        aria-label="Send Email"
+        aria-label="Send email to Ashrith Krishna Namburi"
         className="w-10 h-10 rounded-xl bg-white dark:bg-[#03120A] border border-slate-200 dark:border-emerald-900/40 hover:border-emerald-500 dark:hover:border-emerald-500 flex items-center justify-center text-slate-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-all duration-200 shadow-sm active:scale-95 group"
       >
         <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />

@@ -34,7 +34,7 @@ export const CapstoneCaseStudyClient: React.FC = () => {
   const [activeArchLayer, setActiveArchLayer] = useState<string | null>("resolver");
 
   const capstoneProject = portfolioConfig.projects.find((p) => p.id === "kl-cse-capstone-management");
-  const liveDemoUrl = capstoneProject?.liveDemoUrl || "https://capstone-psi-topaz.vercel.app/";
+  const liveDemoUrl = capstoneProject?.liveDemoUrl || "https://capstone-psi-topaz.vercel.app/login";
 
   const roleDefinitions = [
     {
@@ -218,6 +218,7 @@ export const CapstoneCaseStudyClient: React.FC = () => {
                 href={liveDemoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Open KL CSE Capstone live demo"
                 onClick={() => trackLiveDemoClick("kl-cse-capstone-management")}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm rounded-xl shadow-lg shadow-emerald-600/20 transition-all active:scale-95"
               >
@@ -226,9 +227,10 @@ export const CapstoneCaseStudyClient: React.FC = () => {
               </a>
 
               <a
-                href="https://github.com/reviewportalklu-cse2/capstone"
+                href={capstoneProject?.githubUrl || "https://github.com/reviewportalklu-cse2/capstone"}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="View KL CSE Capstone repository on GitHub"
                 onClick={() => trackGitHubClick("kl-cse-capstone-management")}
                 className="inline-flex items-center gap-2 px-5 py-3 bg-white hover:bg-slate-100 dark:bg-[#03120A] dark:hover:bg-emerald-950/40 text-slate-800 dark:text-gray-200 font-medium text-sm rounded-xl border border-slate-200 dark:border-emerald-900/50 transition-all active:scale-95 shadow-sm"
               >
@@ -595,6 +597,7 @@ export const CapstoneCaseStudyClient: React.FC = () => {
               href={liveDemoUrl}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Open KL CSE Capstone live demo"
               onClick={() => trackLiveDemoClick("kl-cse-capstone-management")}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm rounded-xl shadow-md transition-all active:scale-95"
             >
@@ -603,9 +606,10 @@ export const CapstoneCaseStudyClient: React.FC = () => {
             </a>
 
             <a
-              href="https://github.com/reviewportalklu-cse2/capstone"
+              href={capstoneProject?.githubUrl || "https://github.com/reviewportalklu-cse2/capstone"}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="View KL CSE Capstone repository on GitHub"
               onClick={() => trackGitHubClick("kl-cse-capstone-management")}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-white hover:bg-slate-100 dark:bg-[#03120A] dark:hover:bg-emerald-950/40 text-slate-800 dark:text-gray-200 font-medium text-sm rounded-xl border border-slate-300 dark:border-emerald-900/50 transition-all active:scale-95 shadow-sm"
             >

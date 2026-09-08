@@ -72,6 +72,7 @@ export const GenericProjectCaseStudyClient: React.FC<{ proj: GenericProjectData 
               href={proj.demoUrl}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Open ${proj.title} live demo`}
               onClick={() => trackLiveDemoClick(proj.id)}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm rounded-xl shadow-md transition-all active:scale-95"
             >
@@ -83,6 +84,7 @@ export const GenericProjectCaseStudyClient: React.FC<{ proj: GenericProjectData 
               href={proj.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`View ${proj.title} repository on GitHub`}
               onClick={() => trackGitHubClick(proj.id)}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-white hover:bg-slate-100 dark:bg-[#03120A] dark:hover:bg-emerald-950/40 text-slate-800 dark:text-gray-200 font-medium text-sm rounded-xl border border-slate-200 dark:border-emerald-900/50 transition-all active:scale-95 shadow-sm"
             >

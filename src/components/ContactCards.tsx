@@ -13,6 +13,7 @@ export const ContactCards: React.FC = () => {
           {/* PRIMARY EMAIL */}
           <a
             href={portfolioConfig.socialLinks.email}
+            aria-label="Send email to Ashrith Krishna Namburi"
             onClick={() => {
               import("@/lib/analytics").then(({ trackEmailClick }) => trackEmailClick());
             }}
@@ -32,6 +33,7 @@ export const ContactCards: React.FC = () => {
             href={portfolioConfig.socialLinks.linkedin}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit Ashrith Krishna Namburi on LinkedIn"
             onClick={() => {
               import("@/lib/analytics").then(({ trackLinkedInClick }) => trackLinkedInClick());
             }}
@@ -53,6 +55,7 @@ export const ContactCards: React.FC = () => {
             href={portfolioConfig.socialLinks.github}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit Ashrith Krishna Namburi on GitHub"
             onClick={() => {
               import("@/lib/analytics").then(({ trackGitHubClick }) => trackGitHubClick("general"));
             }}
@@ -74,6 +77,7 @@ export const ContactCards: React.FC = () => {
             href={portfolioConfig.socialLinks.instagram}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit Ashrith Krishna Namburi on Instagram"
             onClick={() => {
               import("@/lib/analytics").then(({ trackInstagramClick }) => trackInstagramClick());
             }}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { AboutPageClient } from "@/components/AboutPageClient";
+import { portfolioConfig } from "@/config/portfolio";
 
 const profilePageJsonLd = {
   "@context": "https://schema.org",
@@ -10,9 +11,9 @@ const profilePageJsonLd = {
     "jobTitle": "Full Stack Developer",
     "url": "https://myportfolio-eight-ecru-21.vercel.app/",
     "sameAs": [
-      "https://github.com/ashritkrishna",
-      "https://linkedin.com/in/ashritkrishna",
-      "https://www.instagram.com/__ashrith_namburi_06/"
+      portfolioConfig.socialLinks.linkedin,
+      portfolioConfig.socialLinks.github,
+      portfolioConfig.socialLinks.instagram
     ],
     "alumniOf": {
       "@type": "EducationalOrganization",

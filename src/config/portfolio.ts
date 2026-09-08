@@ -136,8 +136,8 @@ export const portfolioConfig: PortfolioConfig = {
     emphasis: "React, Next.js, Node.js, Python, and modern cloud ecosystems."
   },
   socialLinks: {
-    github: "https://github.com/ashritkrishna",
-    linkedin: "https://linkedin.com/in/ashritkrishna",
+    github: "https://github.com/ashrithnamburi06-ux",
+    linkedin: "https://www.linkedin.com/in/namburi-ashrith-krishna-057b95397/",
     instagram: "https://www.instagram.com/__ashrith_namburi_06/",
     email: "mailto:ashrithnamburi06@gmail.com",
     phone: "+91 (Verified on request)",
@@ -181,7 +181,7 @@ export const portfolioConfig: PortfolioConfig = {
       technologies: ["React", "Vite", "Firebase Auth", "Cloud Firestore", "Tailwind CSS", "PapaParse", "jsPDF"],
       featured: true,
       detailUrl: "/projects/kl-cse-capstone-management",
-      liveDemoUrl: "https://capstone-psi-topaz.vercel.app/",
+      liveDemoUrl: "https://capstone-psi-topaz.vercel.app/login",
       githubUrl: "https://github.com/reviewportalklu-cse2/capstone"
     },
     {
@@ -198,7 +198,7 @@ export const portfolioConfig: PortfolioConfig = {
       image: "/images/gr-styles-mockup.png",
       detailUrl: "/projects/gr-styles",
       liveDemoUrl: "https://www.grstyles.com/",
-      githubUrl: "https://github.com/ashritkrishna"
+      githubUrl: "https://github.com/ashrithnamburi06-ux"
     },
     {
       id: "dealrix",
@@ -211,7 +211,7 @@ export const portfolioConfig: PortfolioConfig = {
       featured: false,
       detailUrl: "/projects/dealrix",
       liveDemoUrl: "https://www.dealrix.in/",
-      githubUrl: "https://github.com/ashritkrishna"
+      githubUrl: "https://github.com/ashrithnamburi06-ux"
     },
     {
       id: "ai-showcase",
@@ -223,8 +223,8 @@ export const portfolioConfig: PortfolioConfig = {
       technologies: ["Python", "AWS", "Node.js", "Express.js"],
       featured: false,
       detailUrl: "/projects/ai-showcase",
-      liveDemoUrl: "https://github.com/ashritkrishna",
-      githubUrl: "https://github.com/ashritkrishna"
+      liveDemoUrl: "https://github.com/ashrithnamburi06-ux",
+      githubUrl: "https://github.com/ashrithnamburi06-ux"
     },
     {
       id: "developer-portfolio",
@@ -237,7 +237,7 @@ export const portfolioConfig: PortfolioConfig = {
       featured: false,
       detailUrl: "/projects/developer-portfolio",
       liveDemoUrl: "https://myportfolio-eight-ecru-21.vercel.app/",
-      githubUrl: "https://github.com/ashritkrishna"
+      githubUrl: "https://github.com/ashrithnamburi06-ux"
     }
   ],
   annotation: {

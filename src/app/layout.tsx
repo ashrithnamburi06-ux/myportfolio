@@ -5,6 +5,7 @@ import { LoadingScreen } from "@/components/LoadingScreen";
 import { CustomCursor } from "@/components/CustomCursor";
 import { ExitIntentModal } from "@/components/ExitIntentModal";
 import { PageViewTracker } from "@/components/PageViewTracker";
+import { portfolioConfig } from "@/config/portfolio";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -106,9 +107,9 @@ const personJsonLd = {
   "jobTitle": "Full Stack Developer",
   "url": "https://myportfolio-eight-ecru-21.vercel.app/",
   "sameAs": [
-    "https://github.com/ashritkrishna",
-    "https://linkedin.com/in/ashritkrishna",
-    "https://www.instagram.com/__ashrith_namburi_06/"
+    portfolioConfig.socialLinks.linkedin,
+    portfolioConfig.socialLinks.github,
+    portfolioConfig.socialLinks.instagram
   ],
   "knowsAbout": [
     "React",

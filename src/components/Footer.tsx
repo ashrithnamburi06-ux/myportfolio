@@ -73,7 +73,7 @@ export const Footer: React.FC = () => {
                 href={portfolioConfig.socialLinks.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn"
+                aria-label="Visit Ashrith Krishna Namburi on LinkedIn"
                 className="w-9 h-9 rounded-lg bg-slate-100 dark:bg-[#051A0F] border border-slate-200 dark:border-emerald-900/40 flex items-center justify-center text-slate-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:border-emerald-400 transition-all shadow-sm"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -86,7 +86,7 @@ export const Footer: React.FC = () => {
                 href={portfolioConfig.socialLinks.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="GitHub"
+                aria-label="Visit Ashrith Krishna Namburi on GitHub"
                 className="w-9 h-9 rounded-lg bg-slate-100 dark:bg-[#051A0F] border border-slate-200 dark:border-emerald-900/40 flex items-center justify-center text-slate-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:border-emerald-400 transition-all shadow-sm"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -99,7 +99,7 @@ export const Footer: React.FC = () => {
                 href={portfolioConfig.socialLinks.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Instagram"
+                aria-label="Visit Ashrith Krishna Namburi on Instagram"
                 className="w-9 h-9 rounded-lg bg-slate-100 dark:bg-[#051A0F] border border-slate-200 dark:border-emerald-900/40 flex items-center justify-center text-slate-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:border-emerald-400 transition-all shadow-sm"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -110,7 +110,7 @@ export const Footer: React.FC = () => {
               {/* EMAIL */}
               <a
                 href={portfolioConfig.socialLinks.email}
-                aria-label="Email"
+                aria-label="Send email to Ashrith Krishna Namburi"
                 className="w-9 h-9 rounded-lg bg-slate-100 dark:bg-[#051A0F] border border-slate-200 dark:border-emerald-900/40 flex items-center justify-center text-slate-700 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:border-emerald-400 transition-all shadow-sm"
               >
                 <Mail className="w-4 h-4" />
